@@ -1,28 +1,3 @@
-// Copy the array below and paste it into your JavaScript assignment file.
-
-// You will use this array to answer all the questions that follow.
-
-
-// Use JavaScript concepts we've learned in class:
-
-// map()
-
-// filter()
-
-// forEach()
-
-// if/else statements
-
-// comparison operators (==, ===)
-
-// functions
-
-// ! (negation)
-
-// When you're done:
-
-// Push your file to GitHub and share the GitHub repository URL
-
 
 const drugs = [
 
@@ -99,7 +74,7 @@ const newArray = drugs.map((drug) => {return `Drug: ${drug.name} - ${drug.dosage
 console.log(newArray)
 // ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 // 7. Write a function that returns all drugs with a stock less than 50.
-const depletedDrugsStock = (drugs) => {return drugs.filter((drug)=> (drug.stock <50)) }
+const depletedDrugsStock = (drugs) => {return drugs.filter((drug)=> {return(drug.stock <50)}) }
 
 //function call test
 console.log(depletedDrugsStock(drugs));
